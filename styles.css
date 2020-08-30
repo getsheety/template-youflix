@@ -1,0 +1,33 @@
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.logo {
+	position: fixed;
+	z-index: 1000;
+}
+
+.logo img {
+	height: 40px;
+}
+
+.featured_video {
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.featured_video .gradient {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0,0,0,0), #000);
+}
+
+.card {
+	transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+	transform: scale(1.15);
+}
